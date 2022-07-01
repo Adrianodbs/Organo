@@ -22,7 +22,12 @@ const Formulario = () => {
 
   const aoSalvar = evento => {
     evento.preventDefault()
-    console.log('sub')
+    Props.aoColaboradorCadastrado({
+      nome,
+      cargo,
+      imagem,
+      time
+    })
   }
 
   return (
