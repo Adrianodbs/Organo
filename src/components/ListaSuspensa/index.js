@@ -9,6 +9,8 @@ const ListaSuspensa = props => {
         required={props.obrigatorio}
         value={props.valor}
       >
+        {/* Para ficar uma opção em branco */}
+        <option value=""></option>
         {props.itens.map(item => (
           <option key={item}>{item}</option>
         ))}
