@@ -18,6 +18,11 @@ const Formulario = props => {
       imagem,
       time
     })
+    // Para limpar o formulário digitado
+    setNome('')
+    setCargo('')
+    setImagem('')
+    setTime('')
   }
 
   return (
